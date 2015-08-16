@@ -1,2 +1,2 @@
-function Person(a){this.name=a,this.age=12}function home(){}Person.prototype={hello:function(){}};
+!function(a){var b=function(a,b){for(var c=[],d=0;a>d;d++)c.push(new Array(b));return c};a.helpers={createArrayMatrix:b}}(window.tetris=window.tetris||{}),function(a){function b(a,b){this.rows=a||20,this.cols=b||9,this.matrix=c.createArrayMatrix(this.rows,this.cols),this.shadow_matrix=c.createArrayMatrix(this.rows,this.cols)}var c=a.helpers;b.prototype={constructor:b,rows:function(){return this.rows},cols:function(){return this.cols}},a.Board=b}(window.tetris=window.tetris||{});
 //# sourceMappingURL=main.js.map

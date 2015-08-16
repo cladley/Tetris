@@ -1,3 +1,4 @@
+
 module.exports = function(grunt){
 
 	grunt.initConfig({
@@ -7,12 +8,10 @@ module.exports = function(grunt){
 			distDir : './assets/dist',
 			specDir : './specs',
 
-
-
 			js : {
 				fileList : [
-					'<%=config.srcDir%>/js/person.js',
-					'<%=config.srcDir%>/js/home.js'
+					'<%=config.srcDir%>/js/helpers/utils.js',
+					'<%=config.srcDir%>/js/board.js'
 				],
 
 				distDir : '<%=config.distDir%>/js/',
@@ -55,8 +54,8 @@ module.exports = function(grunt){
 		jasmine : {
 			src : '<%=config.js.fileList%>',
 			options : {
-				specs : '<%=config.specDir%>/**/*spec.js',
-				helpers : 'specs/helpers/*.js'
+				specs : '<%=config.specDir%>/**/*spec.js'
+				
 			}
 		}
 	});
