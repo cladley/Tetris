@@ -1,0 +1,1 @@
+{"version":3,"file":"main.js","sources":["../../src/js/person.js","../../src/js/home.js"],"names":["Person","name","this","age","home","prototype","hello"],"mappings":"AAAA,QAASA,QAAOC,GACfC,KAAKD,KAAOA,EACZC,KAAKC,IAAM,GCFZ,QAASC,SDKTJ,OAAOK,WACNC,MAAO"}
