@@ -21,5 +21,4 @@
 
 	T.Board = Board;
 
-
 })(window.tetris = window.tetris || {});

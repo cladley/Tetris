@@ -11,7 +11,11 @@ module.exports = function(grunt){
 			js : {
 				fileList : [
 					'<%=config.srcDir%>/js/helpers/utils.js',
-					'<%=config.srcDir%>/js/board.js'
+					'<%=config.srcDir%>/js/global.js',
+					'<%=config.srcDir%>/js/block.js',
+					'<%=config.srcDir%>/js/board.js',
+					'<%=config.srcDir%>/js/piece.js',
+					'<%=config.srcDir%>/js/main.js'
 				],
 
 				distDir : '<%=config.distDir%>/js/',
@@ -39,7 +43,7 @@ module.exports = function(grunt){
 					drop_console: false
 				},
 
-				beautify: false, // beautify: beautify your code for debugging/troubleshooting purposes
+				beautify: true, // beautify: beautify your code for debugging/troubleshooting purposes
 				// report: 'gzip', // report: Show file size report
 				sourceMap: '<%=config.js.distDir%><%=config.js.distFile%>.map',
 				sourceMappingURL: '/<%=config.js.distFile%>.map',
